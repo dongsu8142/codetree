@@ -14,6 +14,7 @@ fn main() {
     for i in a..=b {
         if i % c == 0 {
             satisfied = true;
+            break;
         }
     }
 
